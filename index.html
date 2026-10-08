@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Job Search Tracker — Screenshot Gallery</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 id="page-title">Job Search Tracker — Screenshot Gallery</h1>
+    <p class="subtitle">A self-hosted tracker and activity log for a job search: one Python file and SQLite on a Raspberry Pi. All screenshots show fictional example data. Newest first; click any image for full size.</p>
+    <p class="doc-links">Source code: <a href="https://github.com/John-Schubert/job_search_tracker">github.com/John-Schubert/job_search_tracker</a> (MIT) · <a href="https://github.com/John-Schubert/job_search_tracker#readme">README: features, design notes, API</a></p>
+  </header>
+
+  <main id="timeline" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p>Screenshots come from a demo copy loaded with made-up companies and contacts. No real applications appear here.</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+    <p id="lightbox-caption" class="lightbox-caption"></p>
+  </div>
+
+  <script src="assets/gallery.js" defer></script>
+</body>
+</html>

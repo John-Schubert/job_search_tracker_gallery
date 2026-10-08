@@ -1,0 +1,34 @@
+{
+  "title": "Job Search Tracker \u2014 Screenshot Gallery",
+  "views": [
+    {
+      "key": "tracker",
+      "label": "Tracker: applications, follow-up highlighting, change history"
+    },
+    {
+      "key": "log",
+      "label": "Log: dated notes merged with the tracker's own events"
+    },
+    {
+      "key": "log_linking",
+      "label": "Log: writing a note linked to one application"
+    },
+    {
+      "key": "log_filtered",
+      "label": "Log: filtered to one company"
+    }
+  ],
+  "entries": [
+    {
+      "date": "2026-10-08",
+      "folder": "2026-10-08",
+      "images": {
+        "tracker": "tracker.png",
+        "log": "log.png",
+        "log_linking": "log_linking.png",
+        "log_filtered": "log_filtered.png"
+      },
+      "note": "First snapshot, with fictional example data. The tracker table with its change history, and the new Log page: dated notes that link to a company, to one application, or to nothing, shown in one timeline with the tracker's own status changes."
+    }
+  ]
+}
