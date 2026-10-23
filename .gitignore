@@ -1,0 +1,34 @@
+# Allowlist: ignore everything, then allow only known-safe files.
+# The rules behind this are in CLAUDE.md. Snapshots must show fictional data only.
+*
+!*/
+!*.py
+!*.html
+!*.css
+!*.js
+!*.sh
+!README.md
+!CLAUDE.md
+!LICENSE
+!.gitignore
+!.nojekyll
+!manifest.json
+!snapshots/*/*.png
+
+# Never, even if matched above. These come last so they win.
+data/
+CLAUDE.local.md
+*.db
+*.sqlite*
+*.csv
+*.log
+.env*
+*.pem
+*.key
+known_hosts
+*.bak
+*.old
+*.orig
+*~
+__pycache__/
+node_modules/
