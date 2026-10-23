@@ -10,6 +10,10 @@
       "label": "Log: dated notes merged with the tracker's own events"
     },
     {
+      "key": "today",
+      "label": "Today: the daily done-line, what is due, pipeline, and an energy check-in"
+    },
+    {
       "key": "log_linking",
       "label": "Log: writing a note linked to one application"
     },
@@ -29,6 +33,16 @@
         "log_filtered": "log_filtered.png"
       },
       "note": "First snapshot, with fictional example data. The tracker table with its change history, and the new Log page: dated notes that link to a company, to one application, or to nothing, shown in one timeline with the tracker's own status changes."
+    },
+    {
+      "date": "2026-10-22",
+      "folder": "2026-10-22",
+      "images": {
+        "tracker": "tracker.png",
+        "log": "log.png",
+        "today": "today.png"
+      },
+      "note": "Adds the Today page, a third tab next to Tracker and Log, with fictional example data. A daily done-line with a stop time, what is due now, a pipeline snapshot with response rate by resume version, an energy and recovery check-in with a 7-day trend, a weekly review, a wins log, and one question when an application closes. It reads the tracker's data without changing it."
     }
   ]
 }

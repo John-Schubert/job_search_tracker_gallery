@@ -21,9 +21,13 @@ from a Raspberry Pi so a laptop and a phone see the same list.
 - **Log:** dated free-text notes, each linked to nothing, to a company, or to
   one specific application. The tracker's own events (status changes, rows
   added or removed) appear in the same timeline.
+- **Today:** a calm daily page. A done-line with a stop time, what is due
+  now, a pipeline snapshot with response rate by resume version, an energy
+  and recovery check-in with a 7-day trend, a weekly review and a wins log.
+  It reads the tracker's data without changing it.
 
-It is one Python file using only the standard library, with SQLite for
-storage and two plain HTML pages. There is no login, so the server only
+It is Python using only the standard library, with SQLite for storage and
+three plain HTML pages. There is no login, so the server only
 answers clients on private network addresses and rejects the kinds of request
 a hostile website could send through a browser.
 
